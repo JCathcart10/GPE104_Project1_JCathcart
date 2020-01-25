@@ -399,6 +399,49 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1585805426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1585805428}
+  - component: {fileID: 1585805427}
+  m_Layer: 0
+  m_Name: quitter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1585805427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585805426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 513a8142ea27ea0449c2f404b67d22e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1585805428
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585805426}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1913096554
 GameObject:
   m_ObjectHideFlags: 0
@@ -411,7 +454,6 @@ GameObject:
   - component: {fileID: 1913096556}
   - component: {fileID: 1913096555}
   - component: {fileID: 1913096558}
-  - component: {fileID: 1913096560}
   m_Layer: 0
   m_Name: PlayerShip
   m_TagString: Player
@@ -517,18 +559,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canMove: 1
   speed: 1
---- !u!114 &1913096560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1913096554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 513a8142ea27ea0449c2f404b67d22e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1961476564
 GameObject:
   m_ObjectHideFlags: 0
